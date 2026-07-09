@@ -726,3 +726,158 @@ footer {
     font-size: 18px;
     line-height: 1.6;
 }
+
+/* styling of paths.html */
+
+.pricing-hero {
+    padding: 80px 24px;
+    background-color: #f8fafc;
+}
+
+.pricing-hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricing-hero-content h1 {
+    color: #0f172a;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.pricing-hero-description {
+    max-width: 760px;
+    margin: 0 auto;
+    color: #475569;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.pricing-section {
+    padding: 80px 24px;
+    background-color: #ffffff;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: stretch;
+}
+
+.pricing-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+}
+
+.pricing-card h3 {
+    color: #0f172a;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.plan-price {
+    color: #0284c7;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.plan-price span {
+    color: #64748b;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.plan-description {
+    color: #475569;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.plan-features {
+    margin-bottom: 28px;
+    padding-left: 20px;
+}
+
+.plan-features li {
+    color: #475569;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 8px;
+}
+
+.plan-link {
+    display: inline-block;
+    margin-top: auto;
+    padding: 12px 20px;
+    background-color: #0284c7;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.plan-link:hover {
+    background-color: #0369a1;
+}
+
+.featured-plan {
+    border: 2px solid #0284c7;
+    background-color: #ffffff;
+}
+
+.plan-badge {
+    display: inline-block;
+    align-self: flex-start;
+    padding: 6px 12px;
+    margin-bottom: 20px;
+    background-color: #e0f2fe;
+    color: #0369a1;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.pricing-note {
+    padding: 80px 24px;
+    background-color: #f1f5f9;
+}
+
+.note-box {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #0f172a;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.note-box h2 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.note-box p {
+    color: #cbd5e1;
+    font-size: 17px;
+    line-height: 1.7;
+}
